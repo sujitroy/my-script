@@ -6,7 +6,7 @@ echo Start envsetup.sh
 echo Preparing Device: armani
 breakfast armani
 
-# Make UNOFFICIAL
+# Always Make OFFICIAL
 echo Set Build Type to OFFICIAL
 export OWNROM_BUILDTYPE=OFFICIAL
 
