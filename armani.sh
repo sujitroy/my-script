@@ -10,9 +10,6 @@ breakfast armani
 echo Set Build Type to OFFICIAL
 export OWNROM_BUILDTYPE=OFFICIAL
 
-# Setting out dir to SSD
-#echo Setting out dir to SSD
-#export OUT_DIR_COMMON_BASE=/home/owndroid/Bureaublad/OwnOUT
 
 # Check breakfast again
 echo Check OWNROM_VERSION= to be sure!
@@ -29,7 +26,7 @@ export I_WANT_A_QUAIL_STAR=true
 
 # fix jack server heap size error
 echo Fixing jack server heap size error
-export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx12g"
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx14g"
  
 # restart jack to apply updates
 echo Restartig jack server to apply updates! 
