@@ -18,7 +18,7 @@ echo kernel cloned
 <<<<<<< HEAD
 git clone https://github.com/sujitroy/proprietary_vendor_xiaomi.git vendor/xiaomi -b cm-14.1 
 =======
-gir clone https://github.com/sujitroy/proprietary_vendor_xiaomi.git vendor/xiaomi -b cm-14.1 
+git clone https://github.com/sujitroy/proprietary_vendor_xiaomi.git vendor/xiaomi -b cm-14.1 
 >>>>>>> c33f9bd4e18ba589ab22eec742f162f102af8989
 
 echo vendor cloned 
